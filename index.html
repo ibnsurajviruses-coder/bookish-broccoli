@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURAHMA DATA</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        input, button, select {
+            width: 100%;
+            padding: 13px;
+            margin-top: 10px;
+            box-sizing: border-box;
+            border-radius: 6px;
+        }
+
+        input, select {
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #004d99;
+        }
+
+        .balance {
+            font-size: 28px;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SURAHMA DATA</h1>
+    <p>Fast & Reliable Data Services</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Wallet Balance</h2>
+        <p class="balance">₦0.00</p>
+        <button>Fund Wallet</button>
+    </div>
+
+    <div class="card">
+        <h2>Buy Data</h2>
+
+        <label>Network</label>
+        <select>
+            <option>MTN</option>
+            <option>Airtel</option>
+            <option>Glo</option>
+            <option>9mobile</option>
+        </select>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="08012345678">
+
+        <label>Data Plan</label>
+        <select>
+            <option>1GB - ₦500</option>
+            <option>2GB - ₦900</option>
+            <option>5GB - ₦2,000</option>
+            <option>10GB - ₦3,500</option>
+        </select>
+
+        <button>Buy Data</button>
+    </div>
+
+    <div class="card">
+        <h2>Login</h2>
+
+        <input type="email" placeholder="Email address">
+        <input type="password" placeholder="Password">
+
+        <button>Login</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 SURAHMA DATA. All rights reserved.
+</footer>
+
+</body>
+  </html>
